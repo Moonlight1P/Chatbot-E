@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Hi.css">
+</head>
+<body>
+    
+    <div class="addfacultybody"> 
+        <div class="header">
+            Add faculty
+        </div>
+        <form method="POST">
+        <div class="form-group1">
+            <label class="Name">Name:</label>
+            <input class="Name1" type="text" name="name" placeholder="Enter name" id="name" autoComplete='off' className="form-control"  onChange={(e)={
+          setname(e.target.value)
+         }}/>
+         </div>
+         <div class="form-group2">
+            <label class="Gender">Gender:</label>
+            <select name="Gender" id="Gender" placeholder="Enter Gender" value={data.Gender} onChange={handleinput}>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="Other">Other</option>
+            </select> 
+            
+         </div>
+         <div class="form-group3">
+            <label class="Age">Age:</label>
+            <input class="Age1" type="text" name="age" placeholder="Enter age" id="age" autoComplete='off' className="form-control"  onChange={(e)={
+          setage(e.target.value)
+         }} />
+         </div>
+         <div class="form-group4">
+            <label class="Email">Email:</label>
+            <input class="Email1" type="text" name="email" placeholder="Enter email" id="email" autoComplete='off' className="form-control"  onChange={(e)={
+          setemail(e.target.value)
+         }} />
+         </div>
+         <div class="form-group5">
+            <label class="Depart">Department:</label>
+            <input class="Department1" type="text" name="depart" placeholder="Enter department" id="depart" autoComplete='off' className="form-control"  onChange={(e)={
+          setdepart(e.target.value)
+         }} />
+         </div>
+         <div class="form-group6">
+           <button class="btn" type="submit" onClick={submit}><span>Submit</span></button>
+           <button class="btn" type="close" onClick={close}><span>Close</span></button>
+         </div>
+         
+        </form>
+    </div>
+    
+</body>
+</html>

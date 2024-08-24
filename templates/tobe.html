@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopo</title>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    
+    
+    <link href="Cart.css" rel="stylesheet"/>
+    <script src="cart.js"></script>
+    <script src="src/jquery-3.2.1.js"></script>
+</head>
+<body>
+
+<!-- <div class="container">
+
+    <div class="Menu">
+        <div class="Logo--row">
+            <div class="Logo--box">
+                LOGO
+            </div>
+        </div>
+        <div class="Menu--listbox">
+            <div class="Menu--listbox--item">
+                Shirts
+            </div>
+            <div class="Menu--listbox--item">
+                Dresses
+            </div>
+            <div class="Menu--listbox--item">
+                Jeans
+            </div>
+            <div class="Menu--listbox--item">
+                Jackets
+            </div>
+            <div class="Menu--listbox--item">
+                Gymwear
+            </div>
+            <div class="Menu--listbox--item">
+                Blazers
+            </div>
+            <div class="Menu--listbox--item">
+                Shoes
+            </div>
+        </div>
+        <div class="Menu--footer">
+            <div class="Menu--footer--item">
+                Contact
+            </div>
+            <div class="Menu--footer--item">
+                Newsletter
+            </div>
+            <div class="Menu--footer--item">
+                Subscribe
+            </div>
+        </div>
+
+    </div> -->
+
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="MiniProject3.html" class="navigation__link">T-Shirts</a></li>
+          <li class="navigation__item"><a href="dress.html" class="navigation__link">Dresses</a></li>
+          <li class="navigation__item"><a href="jeans.html" class="navigation__link">Jeans</a></li>
+          <li class="navigation__item"><a href="hoodies.html" class="navigation__link">Hoodies</a></li>
+          <li class="navigation__item"><a href="shirts.html" class="navigation__link">Shirts</a></li>
+          <li class="navigation__item"><a href="Kurtas.html" class="navigation__link">Kurtas</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <div class="catalog" >
+      <section class="navi">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="#!">Glans</a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="Cart.html">Cart</a>
+          
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+
+        <!-- <header>
+            <div class="heading">
+                Jeans
+            </div>
+            <div class="header--icon--box" id="cart">
+                <img src="img/shopping-cart.svg" class="icon">
+                <div class="cart--count" id="count">
+                </div>
+            </div>
+            <div class="header--icon--box" style="margin-right: 1.5rem">
+                <img src="img/magnifying-glass.svg" class="icon">
+            </div> -->
+        </header> 
+        <div class="catalog--featured">
+            <div class="catalog--featured--heading" >Great Sale</div>
+            <div class="catalog--featured--subheading">COLLECTION 2023</div>
+            <div class="catalog--featured--Btn">
+              <button class="btn"
+                  onclick="location.href='MiniProject3.html'">SHOP NOW
+              </button>
+              <style>
+                .btn{
+                  background: black;
+                  color: white;
+                  text-decoration: none;
+                  border: 2px solid transparent;
+                  font-weight: bold;
+                  padding: 13px 30px;
+                  border-radius: 30px;
+                  transition: .4s;
+                }
+              </style>
+            
+            </div>
+
+        </div>
+        <div class="Item--container" id="catalog">
+
+        </div>
+        <div class="subscribe">
+
+        </div>
+        <div class="chatbot">
+            <div class="chatbot__header">
+              John Doe
+            </div>
+            <div class="chatbot__messages">
+              <!-- Chat messages will appear here -->
+            </div>
+            <div class="chatbot__input">
+              <input type="text" id="userInput" placeholder="Type your message...">
+              <button id="sendMessage">Send</button>
+            </div>
+          </div>
+          <style>
+            .chatbot {
+              position: fixed;
+              bottom: 20px;
+              right: 20px;
+              width: 300px;
+              background-color: #f0f0f0;
+              border: 1px solid #ddd;
+              border-radius: 5px;
+            }
+          
+            .chatbot__header {
+              background-color: #333;
+              color: #fff;
+              text-align: center;
+              padding: 10px;
+            }
+          
+            .chatbot__messages {
+              max-height: 300px;
+              overflow-y: auto;
+              padding: 10px;
+            }
+          
+            .chatbot__input {
+              padding: 10px;
+              display: flex;
+              align-items: center;
+            }
+          
+            #userInput {
+              flex: 1;
+              padding: 5px;
+              border: 1px solid #ddd;
+              border-radius: 5px;
+            }
+          
+            #sendMessage {
+              background-color: #333;
+              color: #fff;
+              border: none;
+              border-radius: 5px;
+              padding: 5px 10px;
+              cursor: pointer;
+              margin-left: 10px;
+            }
+          
+            #sendMessage:hover {
+              background-color: #555;
+            }
+          </style>
+          <script src="main.js"></script>
+        <footer>
+                <div class="footer--col">
+                    <span class="col--heading">Contact Us</span>
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Message">
+                    <div class="button">Submit</div>
+                </div>
+                <div class="footer--col">
+                    <span class="col--heading">About</span>
+                    <a href="#" class="col--a">About us</a>
+                    <a href="#" class="col--a">We're hiring</a>
+                    <a href="#" class="col--a">Support</a>
+                    <a href="#" class="col--a">Help</a>
+
+                </div>
+                <div class="footer--col">
+                    <span class="col--heading">Store</span>
+                    <div class="col--item">Glans</div>
+                    <div class="col--item">9528364012</div>
+                    <div class="col--item">new@mail.com</div>
+                </div>
+
+        </footer>
+    </div>
+</div>
+</body>
+</html>

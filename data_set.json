@@ -1,0 +1,95 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "available",
+      "patterns": ["When are you available?", "when can i talk to you", "when are you available?"],
+      "responses": ["I am available 24/7!!", "I am free now, you can ask anything"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I'm John Doe, your shopping assistant", "I'm John Doe, a shopping assistant"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me John Doe.", "I'm John!"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "T-shirt",
+    "patterns": ["t-shirt","Tshirt","tshirt","I want a nice T-shirt", "I need a nice T-shirt", "I want a T-shirt", "I want t-shirts", "I want t-shirt"],
+    "responses": ["Yes, we have Casual T-shirts, Full Sleeve, Half Sleeve T-shirts"]
+    },
+    {"tag": "Jeans",
+    "patterns": ["jeans","Jeans","I want Jeans", "I want pants", "I need jeans", "i want jeans", "i need new jeans"],
+    "responses": ["Yes we have, Three-fourths, torn jeans and full length jeans"]
+    },
+    {"tag": "Return",
+      "patterns": ["What is the return policy", "How to return a product", "Until when can i return a product"],
+      "responses": ["You can return any product till 14 days after purchasing. For more information about return policy you can check our page: "]
+    },
+    {
+      "tag": "Hoodies",
+      "patterns": ["Tell me about hoodies", "i want hoodies","hoodies","What hoodies do you have?", "Do you have hoodies","Hoodies","Hoodie"],
+      "responses": ["Yes we have hoodies of both half sleeve and full sleeve"]
+    },
+    {
+      "tag": "Shirts",
+      "patterns": ["Tell me about shirts", "do you have shirts", "Do you have shirts","shirts","shirt"],
+      "responses": ["Yes we have, Casual shirts, Full sleeve, Half sleeve"]
+    },
+    {
+      "tag": "Dresses",
+      "patterns": ["Tell me about dresses", "dresses","i want dress", "dress","do you have dress"],
+      "responses": ["Yes we have, Frocks, dresses for women"]
+    },
+    {
+      "tag": "Kurtas",
+      "patterns": ["Tell me about kurtas", "kurtas","i want kurtas", "kurta","do you have kurtas"],
+      "responses": ["Yes we have, Variety of Kurtas for men and women"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards",
+        "How can i pay",
+        "how can i pay",
+        "How can i make payment",
+        "Do you accept Mastercard",
+        "Can I pay with Paypal",
+        "Are you cash only"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "Status of my delivery",
+        "My delivery",
+        "delivery status",
+        "Delivery status"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    }
+]
+}
